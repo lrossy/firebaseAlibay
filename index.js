@@ -1,4 +1,6 @@
 const assert = require('assert');
+/* Don't forget to npm install before running this file */
+
 
 /*
 Before implementing the login functionality, use this function to generate a new UID every time.

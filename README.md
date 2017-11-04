@@ -4,13 +4,17 @@ So far we've only been using firebase-admin from browser javascript using the fi
 
 To speed up development, we're going to be using firebase from NodeJS using the firebase-admin npm package.
 
-## Instructions
+## Setup instructions
 
 Install the firebase-admin package
 
 ```npm install --save firebase-admin```
 
-And you'll need to setup firebase in your project
+Generate a new private key (see image below)
+
+Import the admin module with the code provided by firebase (see image below)
+
+Modify the code provided by firebase by specifying the location of your new private key (see image below)
 
 ![some text](https://github.com/decodejacques/firebaseAlibay/blob/master/firebase-admin-setup.png)
 
@@ -18,4 +22,4 @@ More details here: https://firebase.google.com/docs/admin/setup
 
 ## Giving your code to the front end developers
 
-The front end developers will not be using the firebase-admin package. Instead, they will use the firebase package we're used to.
+The front end developers will not be using the firebase-admin package. Instead, they will use the firebase package we've been using thus far.

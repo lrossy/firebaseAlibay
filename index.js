@@ -20,16 +20,17 @@ function initializeUserIfNeeded(uid) {
 
 /* 
 createListing adds a new listing to our global state.
+This function is incomplete. You need to complete it.
     parameters: 
       [sellerID] The ID of the seller
       [price] The price of the item
       [blurb] A blurb describing the item
     returns: A promise containing the ID of the new listing
 */
-function createListing(sellerID, price, blurb) {
+async function createListing(sellerID, price, blurb) {
     let r = database.ref('listings/').push(); // create a new firebase reference
-    let p = r.set({/* the price and blurb properties */ });
-    return new Promise(resolve => p.then(() => resolve(r.key)));
+    await r.set({/* the price and blurb properties */ });
+    return r.key;
 }
 
 /* 

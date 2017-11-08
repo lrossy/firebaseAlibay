@@ -1,0 +1,23 @@
+{
+  "name": "firebasealibay",
+  "version": "1.0.0",
+  "description": "So far we've only been using firebase-admin from browser javascript using the firebase npm package.",
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^5.4.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lrossy/firebaseAlibay.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lrossy/firebaseAlibay/issues"
+  },
+  "homepage": "https://github.com/lrossy/firebaseAlibay#readme"
+}
